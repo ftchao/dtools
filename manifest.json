@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "DTOOLS",
+    "version": "1.0.0",
+    // "default_locale": "zh-CN",
+    "description": "开发辅助工具",
+    "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+    // "content_scripts": {
+    //     "js": [
+    //         "js/jquery.min.js",
+    //         "js/bootstrap.min.js",
+    //         "plugins/datatables/jquery.dataTables.min.js",
+    //         "plugins/datatables/dataTables.bootstrap.min.js",
+    //         "js/app.min.js",
+    //         "js/common.js"
+    //     ]
+    // },
+    "homepage_url":"http://ftchao.github.io", 
+    "browser_action": {
+        "default_icon": "images/48.png",
+        "default_title": "开发辅助工具",
+        "default_popup": "popup.html"
+    }
+}

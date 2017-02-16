@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UNIX时间转换工具</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div> <h3>UNIXN 时间戳工具</h3> </div>
+    <hr>
+
+    <div class="row">
+        <div class="col-md-6"><h4>北京时间: <span>2017/2/15 18:33:19</span></h4></div>
+        <div class="col-md-6"><h4>UNIX时间戳: <span id="timestamp" class="red">unkonw</span></h4></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6"><h4>北京时间: <span>2017/2/15 0:0:0</span></h4></div>
+        <div class="col-md-6"><h4>UNIX时间戳: <span id="timeday" class="green">unkonw</span></h4></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6"><h4>北京时间: <input id="in_timestr" type="text" name=""></h4></div>
+        <div class="col-md-6"><h4>UNIX时间戳: <input id="in_unixtime" type="text" name=""></h4></div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/moment.min.js"></script>
+  <script src="timestamp.js"></script>
+</body>
+</html>
